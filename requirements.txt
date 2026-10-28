@@ -1,0 +1,5 @@
+torch>=2.2
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+ipykernel  # optional: run lessons cell-by-cell in VS Code

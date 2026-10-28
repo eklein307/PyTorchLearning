@@ -1,0 +1,13 @@
+{
+  "data": "data/train.csv",
+  "out": "models/rul_lstm.pt",
+  "model": "lstm",
+  "window": 96,
+  "rul_cap": 600.0,
+  "hidden": 64,
+  "layers": 2,
+  "dropout": 0.1,
+  "loss": "huber",
+  "epochs": 60,
+  "patience": 10
+}

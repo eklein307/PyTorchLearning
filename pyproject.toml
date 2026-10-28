@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pemfc_rul"
+version = "0.1.0"
+description = "PEM fuel cell Remaining Useful Life prediction with PyTorch (learning project)"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.2", "numpy>=1.24", "pandas>=2.0"]
+
+[project.optional-dependencies]
+lessons = ["matplotlib>=3.7", "ipykernel"]
+
+[project.scripts]
+pemfc-rul = "pemfc_rul.cli:main"
+
+[tool.setuptools]
+packages = ["pemfc_rul"]
